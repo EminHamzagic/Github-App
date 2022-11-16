@@ -1,0 +1,89 @@
+.repoListContainer {
+  border-radius: 5px;
+  width: 72%;
+  height: 85vh;
+  overflow-y: scroll;
+  background-color: rgb(58, 58, 58);
+  margin-left: 20px;
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 3%;
+}
+
+.repoListContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+.repoBox {
+  width: 47%;
+  height: 33%;
+  border: 1px solid rgb(126, 126, 126);
+  margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repoBox a {
+  color: #5094e9;
+  text-decoration: none;
+  transition: 0.4s all ease;
+}
+.repoBox a:hover {
+  text-decoration: underline;
+}
+
+.repoDesc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+p {
+  color: rgb(148, 148, 148);
+  font-size: 12px;
+}
+
+.Info {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.moreInfo {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  color: rgb(148, 148, 148);
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.iconsDiv {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.iconsDiv div {
+  width: 10%;
+  display: flex;
+}
+
+.icon {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.icon:hover {
+  color: rgb(190, 190, 190);
+}

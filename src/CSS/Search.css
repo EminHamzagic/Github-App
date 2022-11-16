@@ -1,0 +1,38 @@
+.searchContainer {
+  width: 100%;
+  height: 5vh;
+}
+
+.searchContainer input {
+  height: 100%;
+  width: 20%;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 5px;
+}
+
+.searchContainer input:focus {
+  outline: none;
+}
+
+.searchContainer button {
+  height: 100%;
+  width: 5%;
+  border: none;
+  color: white;
+  background-color: rgb(68, 68, 68);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.4s all ease;
+}
+
+.searchContainer button:focus {
+  outline: none;
+  background-color: rgb(78, 78, 78);
+}
+
+.searchContainer button:hover {
+  background-color: rgb(78, 78, 78);
+  cursor: pointer;
+}
