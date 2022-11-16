@@ -9,11 +9,7 @@ export default function UserBox({ url, reposUrl, id }) {
     useContext(RepoContext);
   useEffect(() => {
     axios
-      .get(url, {
-        headers: {
-          Authorization: "Basic" + btoa("EminHamzagic" + ":" + "Emindemir1"),
-        },
-      })
+      .get(url)
       .then((data) => {
         setUserData(data.data);
       })
